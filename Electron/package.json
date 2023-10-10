@@ -1,0 +1,26 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "Error simulation window",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "electron"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlauer3/ErrorDetection.git"
+  },
+  "keywords": [
+    "networking"
+  ],
+  "author": "William Lauer",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/wlauer3/ErrorDetection/issues"
+  },
+  "homepage": "https://github.com/wlauer3/ErrorDetection#readme",
+  "devDependencies": {
+    "electron": "^26.3.0"
+  }
+}
