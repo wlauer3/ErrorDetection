@@ -3,7 +3,7 @@
   --semibold: 600;
   --light: rgba(255, 255, 255, 0.87);
   --dark: #242424;
-  background-color: #323232;
+  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -58,8 +58,10 @@
   border: none; 
   cursor: pointer; 
   border-radius: 6px; 
+  transition: background-color 0.5s, color 0.5s;
 }
 
-.button:hover {
-  background-color: #0056b3; 
+.button.clicked {
+  background-color: rgba(1, 139, 1, 0.313);
+  color: rgb(0, 255, 0);
 }
